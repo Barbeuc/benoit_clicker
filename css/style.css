@@ -2,7 +2,11 @@ main {
     font-size: 1.2em;
     color: black;
 }
-body{background-color: #38A7C3;}
+
+body {
+    background-color: #38A7C3;
+}
+
 .title {
     text-align: center;
     margin-top: 20px;
@@ -12,12 +16,27 @@ body{background-color: #38A7C3;}
     font-family: 'Oswald', sans-serif;
 
 }
-.subtitle{
+
+.subtitle {
     text-align: center;
     font-size: 30px;
 }
-.name{
+
+.name {
     color: crimson;
+}
+
+.content-jukebox {
+    float: right;
+    height: 400px;
+    background-image: url("../img/Juke-box.png");
+    background-size: 400px;
+    padding-right: 100px;
+}
+
+.display {
+    margin-left: 25%;
+    margin-top: 190px;
 }
 
 .benoit {
@@ -27,12 +46,14 @@ body{background-color: #38A7C3;}
     background-image: url("../img/stars.gif");
     border-radius: 180px;
 }
+
 .image {
     margin-left: 5%;
     width: 80%;
     position: relative;
 }
-.compteur{
+
+.compteur {
     margin-right: 35%;
     margin-left: 35%;
     padding-top: 50px;
@@ -41,8 +62,8 @@ body{background-color: #38A7C3;}
     font-size: 50px;
     color: gold;
 }
-@charset "UTF-8";
 
+@charset "UTF-8";
 
 /*!
  * animate.css -http://daneden.me/animate
@@ -75,7 +96,7 @@ body{background-color: #38A7C3;}
 @keyframes bounce {
     from, 20%, 53%, 80%, to {
         animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
     }
 
     40%, 43% {
@@ -89,7 +110,7 @@ body{background-color: #38A7C3;}
     }
 
     90% {
-        transform: translate3d(0,-4px,0);
+        transform: translate3d(0, -4px, 0);
     }
 }
 
